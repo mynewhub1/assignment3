@@ -1,0 +1,59 @@
+/* Title */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+/* Background */
+
+body {
+  background-color: rbg(81, 177, 229);
+}
+
+/* Makes label bold */
+
+label{
+  font-weight: bold;
+}
+
+/* .class for classes on html */
+
+row{
+  padding-top: 15px;
+}
+
+/* Invalid boxes outlined in red */
+
+input [tpye="checkbox"]:invalid {
+  border: dashed 2px red;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  vertical-align: top;
+ }
+
+/* Input boxes valid to black */
+
+input:valid,
+textarea:valid {
+  border: 2px solid black;
+}
+
+/* Input boxes valid to black */
+
+input:invalid,
+textarea:invalid {
+  border: 2px dashed red;
+}
+
+img {
+  width: 900px;
+  height: 200px;
+  
+}

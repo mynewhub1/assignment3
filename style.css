@@ -11,7 +11,7 @@
 /* Background */
 
 body {
-  background-color: rbg(81, 177, 229);
+  background-color: rgb(229, 185, 81);
 }
 
 /* Makes label bold */
@@ -53,7 +53,7 @@ textarea:invalid {
 }
 
 img {
-  width: 900px;
-  height: 200px;
+  width: 800px;
+  height: 300px;
   
 }
